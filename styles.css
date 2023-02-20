@@ -1,0 +1,56 @@
+
+
+body{
+	background:#0060ff;
+	display: grid;
+	grid-template-columns:20fr 60fr 20fr; 
+
+}
+
+h1{
+	text-align: center;
+	grid-column: 2;
+}
+
+.Num {
+	text-align: center;
+	font: 10vw Calibri;
+	color:#fff;
+	grid-column: 2;
+
+}
+
+.submit{
+	
+		margin-top: 20px;
+	grid-column: 2;
+	border:none;
+	outline: none;
+	background-color: white;
+	color:#0060ff;
+	font: 3vw Calibri;
+	text-align: center;
+	width: 30%;
+	border-radius: 20px;
+
+
+}
+
+.inputNum{
+
+	grid-column: 2;
+	border:none;
+	outline: none;
+	background-color: white;
+	color:#0060ff;
+	font: 3vw Calibri;
+	text-align: center;
+	border-radius: 20px;
+
+
+}
+
+
+.hide{
+	display:none;
+}
